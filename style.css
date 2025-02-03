@@ -1,0 +1,382 @@
+header{
+    background-image: url("Taj mahal.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+    padding:130px
+
+}
+
+.center{
+    background-image: url("Taj mahal.jpg");
+
+}
+
+nav {
+    position:fixed;
+    top:0%;
+    left:0%;
+    width:98%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#1d3557 ;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+.home {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+.home:hover {
+    background-color: #f5f5dc;
+    border-radius: 5px;
+}
+
+.TajMahal {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+
+}
+
+.TajMahal:hover {
+    background-color: #f5f5dc;
+    border-radius: 5px;
+}
+
+.IndiaGate {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+
+.IndiaGate:hover {
+    background-color: #f5f5dc;
+    border-radius: 5px;
+}
+
+.StatueOfUnity{
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+
+.StatueOfUnity:hover {
+    background-color: #f5f5dc;
+    border-radius: 5px;
+}
+.QutubMinar {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+
+
+.QutubMinar:hover {
+    background-color: #f5f5dc;
+    border-radius: 5px;
+}
+
+.GateWayOfIndia {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+
+
+.GateWayOfIndia:hover {
+    background-color: #f5f5dc;
+    border-radius: 5px;
+}
+
+.MeenakshiAmman {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+
+
+.MeenakshiAmman:hover {
+    background-color: #f5f5dc;
+    border-radius: 5px;
+}
+
+
+/* Style for the two-sides container */
+
+.two-sides {
+    display: flex;
+    height:100vh;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.left-side {
+    flex:1 1 25%;
+    width: 38%;
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-right:2%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border-right:3px solid #ccc;
+}
+
+.left-side a{
+    display:block;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.1em;
+    color:#333;
+}
+.left-side img{
+    object-fit: cover;
+    width:150;
+    height:150;
+}
+
+.right-side{
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.right-side {
+    width: 68%;
+    background-color: #f5f5dc; 
+    padding: 20px;
+    border-radius: 8px
+    
+}
+
+
+.left-side h2, .right-side h2 {
+    color: #333;
+}
+
+.left-side p, .right-side p {
+    color: #666;
+}
+
+
+.content-box {
+    border-radius: 8px;
+    border:2px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box h2, .content-box h3 {
+    color: #333;
+}
+
+.content-box img {
+    width: 50%;
+    height: 50%;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.content-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.content-box ul li {
+    margin: 5px 0;
+}
+
+.content-box p {
+    line-height: 1.6;
+}
+footer {
+    background-color: #1d3557; 
+    color:white;               
+    text-align: center;        
+    padding: 10px;              
+    position: relative;
+    bottom: 0;
+    width: 98%;
+    font-size: 16px;           
+    margin-top: 20px; 
+    border-radius: 8px;          
+}
+
+footer p {
+    margin: 5px 0;             
+}
+
+footer a {
+    color: white;             
+    text-decoration: none;      
+    margin: 0 10px;            
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.home {
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.home iframe {
+    width: 100%; 
+    max-width: 250px; 
+    height: auto;
+}
+
+
+/* Tablet View (768px and below) */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .home {
+        padding: 15px;
+    }
+
+    .home iframe {
+        max-width: 200px;
+        height: 120px;
+    }
+
+    .two-sides {
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .content-box img {
+        width: 80%; 
+        height: auto;
+    }
+
+    
+}
+
+/* Mobile View (480px and below) */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 50px; 
+        font-size: 16px; 
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .home {
+        padding: 10px;
+    }
+
+    .home iframe {
+        max-width: 150px;
+        height: 100px;
+    }
+
+    .two-sides {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .left-side img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .content-box {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .content-box img {
+        width: 100%; 
+        height: auto;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+}
